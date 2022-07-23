@@ -2,7 +2,7 @@
 $host = 'nuepp3ddzwtnggom.chr7pe7iynqr.eu-west-1.rds.amazonaws.com	';
 $dbname = 'keg1lxv6p4wc3gug';
 $username = 'qgmssdczhqfk2ort';
-$password = 'bfugwor02opot3pl';
+$password = 'bk8ih8x1k61ba3rz';
 
 $options = [
     \PDO::ATTR_ERRMODE  => \PDO::ERRMODE_EXCEPTION,

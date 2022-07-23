@@ -1,0 +1,456 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* CSS referente a las tipografías */
+
+
+@font-face {
+    font-family: "logo";
+    src: url("../rsc/fonts/horroroid.ttf");
+}
+
+@font-face {
+    font-family: 'titulito';
+    src: url("../rsc/fonts/LongaIberica-DEMO.ttf");
+}
+
+
+@font-face {
+    font-family: 'textito';
+    src: url("../rsc/fonts/Roboto-Regular.ttf");
+}
+
+/* CSS general */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background: black;
+    
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.titulo {
+    padding: 0;
+    color: aliceblue;
+    font-family: "logo";
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.subtitulo {
+    margin-top: 0;
+    padding: 0;
+    color: azure;
+    font-family: "logo";
+    text-align: center;
+    width: 80%;
+}
+
+/* CSS formulario 1 */
+.form1 {
+    padding: 16px;
+    border-radius: 10px #ccc;
+    margin: auto;
+}
+
+.textoform {
+    font-size: 20px;
+    color: white;
+}
+
+.inputform {
+    border-radius: 10px #ccc;
+    margin: auto;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    margin: 5px;
+}
+
+#btn {
+    background: black;
+    border: aliceblue 2px solid;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/* CSS formulario 2 */
+#futuroForm {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+#respuesta {
+    color: white;
+    font-family: textito;
+    overflow-x: hidden;
+
+
+}
+
+#signoform {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.signosoption {
+    background: black;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+#btn2 {
+    background: black;
+    border: aliceblue 2px solid;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    overflow-x: hidden;
+
+}
+
+/*responsive*/
+
+/*SMARTTVS, DISPOSITIVOS CON MAYORES DIMENSIONES, ETC*/
+@media screen and (min-width: 2000px) {
+    .titulo{
+        font-size: 200px;
+
+    }
+    .subtitulo {
+        font-size: 100px;
+    }
+    .textoform {
+        font-size: 30px;
+    }
+
+    .inputform{
+        font-size: 30px;
+
+    }
+    #respuesta{
+        font-size: 60px;
+
+    }
+    #signoform{
+        font-size: 30px;
+
+     }
+    .signosoption{
+        font-size: 30px;
+
+    }
+}
+
+
+/*ORDENADORES DE ESCRITORIO, LAPTOPS GRANDES, ETC*/
+
+@media screen and (max-width: 2000px) {
+    .titulo{
+        font-size: 150px;
+
+    }
+    .subtitulo {
+        font-size: 70px;
+    }
+    .textoform {
+        font-size: 30px;
+    }
+
+    .inputform{
+        font-size: 30px;
+
+    }
+    #respuesta{
+        font-size: 30px;
+
+    }
+    #signoform{
+        font-size: 30px;
+
+     }
+    .signosoption{
+        font-size: 30px;
+
+    }
+}
+
+
+ /*LAPTOPS CONVENCIONALES*/
+
+@media screen and (max-width: 1600px) {
+    .titulo{
+        font-size: 100px;
+
+    }
+    .subtitulo {
+        font-size: 60px;
+    }
+    .textoform {
+        font-size: 28px;
+    }
+
+    .inputform{
+        font-size: 28px;
+
+    }
+    #respuesta{
+        font-size: 28px;
+
+    }
+    #signoform{
+        font-size: 28px;
+
+     }
+    .signosoption{
+        font-size: 28px;
+
+    }
+    .form1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+
+ /*TABLETS*/
+
+@media screen and (max-width: 992px) {
+    .titulo{
+        font-size: 80px;
+
+    }
+    .subtitulo {
+        font-size: 50px;
+    }
+    .textoform {
+        font-size: 25px;
+    }
+
+    .inputform{
+        font-size: 25px;
+
+    }
+    #respuesta{
+        font-size: 25px;
+
+    }
+    #signoform{
+        font-size: 25px;
+
+     }
+    .signosoption{
+        font-size: 25px;
+
+    }
+    .form1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+ /*TABLETS PEQUEÑAS, SMARTPHONES GRANDES*/
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        font-size: 70px;
+
+    }
+    .subtitulo {
+        font-size: 50px;
+    }
+    .textoform {
+        font-size: 20px;
+    }
+
+    .inputform{
+        font-size: 20px;
+
+    }
+    #respuesta{
+        font-size: 20px;
+
+    }
+    #signoform{
+        font-size: 20px;
+
+     }
+    .signosoption{
+        font-size: 20px;
+
+    }
+    .form1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+ /*SMARTPHONES*/
+
+@media screen and (max-width: 450px) {
+    .titulo{
+        font-size: 60px;
+
+    }
+    .subtitulo {
+        font-size: 40px;
+    }
+    .textoform {
+        font-size: 15px;
+    }
+
+    .inputform{
+        font-size: 15px;
+
+    }
+    #respuesta{
+        font-size: 15px;
+
+    }
+    #signoform{
+        font-size: 15px;
+
+     }
+    .signosoption{
+        font-size: 15px;
+
+    }
+    .form1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+ /*SMARTWHATCHES*/
+
+@media screen and (max-width: 360px) {
+    .titulo{
+        font-size: 50px;
+
+    }
+    .subtitulo {
+        font-size: 30px;
+    }
+    .textoform {
+        font-size: 13px;
+    }
+
+    .inputform{
+        font-size: 13px;
+
+    }
+    #respuesta{
+        font-size: 13px;
+
+    }
+    #signoform{
+        font-size: 13px;
+
+     }
+    .signosoption{
+        font-size: 13px;
+
+    }
+    .form1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}

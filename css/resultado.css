@@ -1,0 +1,126 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* CSS referente a las tipografías */
+
+
+@font-face{
+	font-family: "logo";
+	src: url("../rsc/fonts/horroroid.ttf");
+}
+
+@font-face {
+    font-family: 'titulito';
+    src: url("../rsc/fonts/LongaIberica-DEMO.ttf");
+    }
+   
+    
+@font-face {
+        font-family: 'textito';
+        src: url("../rsc/fonts/Roboto-Regular.ttf");
+        }
+
+        /* CSS general */
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    background: url('../rsc/img/fondoform.jpg');
+    background-size: cover;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+
+}
+/* CSS referente a los bloques de información */
+.bloque{
+    background: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.titulobloque{
+    font-size: 30px;
+    color: white;
+    font-family: 'logo';
+    margin-bottom: 0;
+}
+
+.textobloque{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    background: black;
+    border: aliceblue 2px solid;
+    padding: 5px;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+
+}
+
+.enlace{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+
+}
+.enlace:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+
+}
+.boton:hover{
+    background: aliceblue;
+    border: black 2px solid;
+    padding: 5px;
+    scale: 2px;
+    overflow-x: hidden;
+
+}

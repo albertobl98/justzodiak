@@ -1,0 +1,182 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* CSS referente a las tipografías */
+
+@font-face{
+	font-family: "logo";
+	src: url("../rsc/fonts/horroroid.ttf");
+}
+
+@font-face {
+    font-family: 'titulito';
+    src: url("../rsc/fonts/LongaIberica-DEMO.ttf");
+    }
+   
+    
+@font-face {
+        font-family: 'textito';
+        src: url("../rsc/fonts/Roboto-Regular.ttf");
+        }
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* CSS general */
+body{
+    background-image: url('../rsc/img/fondoform.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.div1{
+    background: rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo{
+    padding: 0;
+    color:aliceblue;
+    font-family: "logo";
+}
+.subtitulo{
+    margin-top: 0;
+    padding: 0;
+    color: azure;
+    font-family: "logo";
+}
+
+.boton{
+    background: black;
+    border: aliceblue 2px solid;
+    padding: 5px;
+}
+
+.enlace{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.enlace:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.boton:hover{
+    background: aliceblue;
+    border: black 2px solid;
+    padding: 5px;
+    scale: 2px;
+}
+
+/*responsive*/
+
+/*SMARTTVS, DISPOSITIVOS CON MAYORES DIMENSIONES, ETC*/
+@media screen and (min-width: 2000px) {
+    .titulo{
+        font-size: 400px;
+    }
+    .subtitulo{
+        font-size: 250px;
+    }
+}
+
+
+/*ORDENADORES DE ESCRITORIO, LAPTOPS GRANDES, ETC*/
+
+@media screen and (max-width: 2000px) {
+    .titulo{
+        font-size: 180px;
+    }
+    .subtitulo{
+        font-size: 80px;
+    }
+}
+
+
+ /*LAPTOPS CONVENCIONALES*/
+
+@media screen and (max-width: 1600px) {
+    .titulo{
+        font-size: 180px;
+    }
+    .subtitulo{
+        font-size: 80px;
+    }
+}
+
+
+ /*TABLETS*/
+
+@media screen and (max-width: 992px) {
+    .titulo{
+        font-size: 110px;
+    }
+    .subtitulo{
+        font-size: 60px;
+    }
+}
+
+ /*TABLETS PEQUEÑAS, SMARTPHONES GRANDES*/
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        font-size: 100px;
+    }
+    .subtitulo{
+        font-size: 60px;
+    }
+}
+
+ /*SMARTPHONES*/
+
+@media screen and (max-width: 450px) {
+    .titulo{
+        font-size: 90px;
+    }
+    .subtitulo{
+        display: none;
+    }
+}
+
+ /*SMARTWHATCHES*/
+
+@media screen and (max-width: 360px) {
+    .titulo{
+        font-size: 60px;
+    }
+    .subtitulo{
+        display: none;
+    }
+}

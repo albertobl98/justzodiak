@@ -2,11 +2,11 @@ $('#btn').click(function () {
 
     // Esta variable es la que trae el valor del input nombre del formulario
 
-    var nombre = document.getElementById('Nombre').value;
+    var nombre = $("#Nombre").val();
 
     // Esta variable es la que trae el valor del input apellido del formulario
 
-    var apellido = document.getElementById('Apellido').value;
+    var apellido = $("#Apellido").val();
 
     // A través de esta variable pasamos los datos anteriores a la página back.php que es la que muestra los datos en la web con ajax para que se muestren las modificaciones oportunas sin recargar la página
 

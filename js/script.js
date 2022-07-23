@@ -30,6 +30,11 @@ $(document).ready(function () {
         $("#futuroForm").show("slow", function () {
 
         });
+         $('#btn').click(function () {
+            $(this).text('Cambiar Datos');
+
+        })
+    });
         
 
 });
@@ -38,10 +43,4 @@ $(document).ready(function () {
     // Esto cambia el texto del boton del primer formulario para que se pueda cambiar el nombre y el apellido y se vea la funcionalidad de ajax
 
 
-    $(document).ready(function () {
-        $('#btn').click(function () {
-            $(this).text('Cambiar Datos');
-
-        })
-    });
-});
+    

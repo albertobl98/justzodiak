@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
+$host = 'nuepp3ddzwtnggom.chr7pe7iynqr.eu-west-1.rds.amazonaws.com	';
 $dbname = 'justzodiak';
-$username = 'alberto';
-$password = '12345678Cei';
+$username = 'qgmssdczhqfk2ort';
+$password = 'bfugwor02opot3pl';
 
 $options = [
     \PDO::ATTR_ERRMODE  => \PDO::ERRMODE_EXCEPTION,

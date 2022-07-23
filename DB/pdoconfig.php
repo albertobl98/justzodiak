@@ -1,6 +1,6 @@
 <?php
 $host = 'nuepp3ddzwtnggom.chr7pe7iynqr.eu-west-1.rds.amazonaws.com	';
-$dbname = 'justzodiak';
+$dbname = 'keg1lxv6p4wc3gug';
 $username = 'qgmssdczhqfk2ort';
 $password = 'bfugwor02opot3pl';
 
